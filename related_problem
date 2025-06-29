@@ -1,0 +1,10 @@
+# Given two strings word1 and word2, merge them by alternating groups of characters instead of single characters. Start with word1, and alternate groups of size k. If one string is shorter, append the remaining characters.
+# Example 1:
+# Input: word1 = "abcdef", word2 = "ghijk", k = 2
+# Output: "abcdghijkef"
+# Explanation:
+# Take first 2 chars from word1: "ab"
+# Then first 2 from word2: "gh"
+# Next 2 from word1: "cd"
+# Next 2 from word2: "ij" (only has "ij" left)
+# Remaining "ef" from word1 and "k" from word2 are appended
