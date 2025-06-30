@@ -4,13 +4,13 @@
 
 import math
 
-def gcd_of_strings(str1: str, str2: str) -> str:
-    if str1 + str2 != str2 + str1:
-        return ""
-    gcd_length = math.gcd(len(str1), len(str2))
-    print(gcd_length,"GCD length")
-    return str1[:gcd_length]  
+class Solution:
+    def gcdOfStrings(self, str1: str, str2: str) -> str:
+        if str1 + str2 != str2 + str1:                            #to check the patten
+            return ""                                             #if not pattern return ""
+        return str1[: math.gcd(len(str1), len(str2))]    #taking length GCD of both strings and extract the strings of that length
 
-print(gcd_of_strings("PQRPQR", "PQR"))
+sol = Solution()
+print(sol.gcdOfStrings("ABCABC", "ABC"))  
 
         
