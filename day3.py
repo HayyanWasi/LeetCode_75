@@ -11,7 +11,7 @@ extra_candies:int = 4
 store_add_candies:List[int] = []
 result:List[bool] = []
 max_candies = max(candies)
-
+    
 if candies:
     for i in candies:
         add_candies = i + extra_candies
@@ -25,6 +25,14 @@ if candies:
     print(result)
 
        
+# #memory optimized version with leetcode
+# from typing import List
+
+# class Solution:
+#     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+#         max_candy = max(candies)
+#         return [candy + extraCandies >= max_candy for candy in candies]
+
 
 
         
