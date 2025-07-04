@@ -9,4 +9,4 @@ def reverse_string(string):
 
     return ' '.join(string)
 
-print(reverse_string(string))
+
