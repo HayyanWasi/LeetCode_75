@@ -1,0 +1,42 @@
+✅ Level: Easy to Medium
+Sum of Array Except Self
+
+Given an array nums, return an array where answer[i] is the sum of all elements in nums except nums[i].
+
+Product of Array Except Self with Zeroes
+
+Modify the original problem to handle multiple zeroes in the array properly.
+
+Prefix Product Array
+
+Given an array nums, return an array where output[i] = product(nums[0] * nums[1] * ... * nums[i]).
+
+Suffix Product Array
+
+Same as above but in reverse. output[i] = product(nums[i] * nums[i+1] * ... * nums[n-1]).
+
+✅ Level: Medium
+Product of Array Except Self (No Division, O(1) Extra Space)
+
+Solve the original problem without using division and using only constant extra space (output array not counted).
+
+Find Element with Product of Others
+
+Given an array, check if any element equals the product of all the other elements.
+
+Array of Products of All Pairs (excluding self)
+
+For each element i, return product of all pairs (nums[i], nums[j]) for j ≠ i.
+
+Maximum Product of Three Numbers
+
+Given an integer array, find the maximum product of any three numbers.
+
+✅ Level: Hard
+Product of Array Except Self for 2D Matrix
+
+Given a 2D matrix, return a matrix where each cell contains the product of all elements in the matrix except that cell (bonus: no division).
+
+K-Product Exclusion
+
+Generalize the problem to return product of all elements except the current one and k neighbors (e.g., k=1 means exclude i-1, i, i+1).
